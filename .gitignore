@@ -1,0 +1,7 @@
+/node_modules
+.project
+.settings
+dist/
+/.tmp
+/typings/browser.d.ts
+/typings/main.d.ts

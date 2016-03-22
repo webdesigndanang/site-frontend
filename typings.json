@@ -1,0 +1,11 @@
+{
+  "name": "webdesign-danang",
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "es6-promise": "github:DefinitelyTyped/DefinitelyTyped/es6-promise/es6-promise.d.ts",
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#6697d6f7dadbf5773cb40ecda35a76027e0783b2",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts",
+    "underscore": "github:DefinitelyTyped/DefinitelyTyped/underscore/underscore.d.ts"
+  }
+}

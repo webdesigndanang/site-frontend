@@ -1,0 +1,8 @@
+{
+   "appName":"wddanangApp",
+   "serverUrl":"http://localhost:9091/",
+   "websiteUrl":"http://localhost:8001/",
+   "staticUrl":"http://localhost:3001/",
+   "CSRFTokenErrorCode":"422",
+   "URLSchema":"http"
+}
