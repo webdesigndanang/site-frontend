@@ -1,0 +1,18 @@
+// ===========================================================
+// Variables
+// ===========================================================
+
+// Grid system
+// --------------------------------------------------
+
+// Number of columns in the grid system
+$grid-columns:              24 !default;
+// Padding, to be divided by two and applied to the left and right of all columns
+$grid-gutter-width:         10px !default;
+
+
+// Fonts
+// --------------------------------------------------
+$font-helvetica: "Helvetica Neue", Helvetica, "Noto Sans", sans-serif;
+$font-lato: Lato,  sans-serif;
+$currentFont: $font-lato;

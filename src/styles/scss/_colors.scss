@@ -1,0 +1,142 @@
+// Colour
+// ----------------------------------------
+
+
+// Grays (Bootstrap 2)
+// -------------------------
+$black:                 #000;
+$grayDarker:            #222;
+$grayDark:              #333;
+$gray:                  #555; /* Used in Settings forms. Probably shouldn't be. */
+$grayLight:             #999;
+$grayLighter:           #eee;
+$white:                 #fff;
+
+
+// Accent colors (Bootstrap 2)
+// -------------------------
+$blue:                  #049cdb;
+$blueDark:              #0064cd;
+$green:                 #46a546;
+$red:                   #9d261d;
+$yellow:                #ffc40d;
+$orange:                #f89406;
+$pink:                  #c3325f;
+$purple:                #7a43b6;
+
+// Custom colors
+// -------------------------
+$salmon:                #eb5645; /* Used in Careers and Team page links. */
+$salmonHover:           #f56353; /* See above. */
+
+$background:            #f4f4f4;
+$secondaryBackground:   #fafafa;
+$errorBackground:       #2789b1;
+$borderGray:            #e6e6e6;
+$borderInput:           #CACBCD; // Not being used
+$menuHover:             #f7f7f7;
+$warningRed:            #f26248; // From angular .form-group .has-error
+$warningOrange:         #f0ad4e; // From Bootstrap.
+$searchBackground:      #f9f9f9;
+
+$primaryType:           #262626;
+$secondaryType:         #838383;
+$tertiaryType:          #a3a3a3; // Used in featured headers
+$homeSecondaryType:     #6a6a6a;
+
+$toolTipColor:          #3c3c3c;
+$imageIcon:             #b4b4b4;
+
+$signUpInputBackground: #f1f1f1;
+
+$favoriteStar:          #fa9120;
+
+$borderLink:            #369bc8;
+$borderpoppular:        #e2e5e8;
+
+// Navbar colors
+$navbarBackground:      $white;
+$navbarTopBorder:       #00af81;
+$navbarButtonUp:        #b1b1b1;
+$navbarButtonHover:     $navbarTopBorder;
+$navbarButtonDown:      $navbarTopBorder;
+$navbarButton:          #484848;
+
+$searchBorder:          #cccccc;
+$searchPlaceholder:     $grayLight;
+$navbarLogoColor:       $primaryType;
+$notificationRed:       #f11515;
+$createButtonHover:     #018f6a;
+
+// Button colors
+// -------------------------
+$greenButton:           #51C04E;
+$greenButtonBorder:     #5DDB5A;
+$greenButtonDown:       #5DDB5A;
+$greenButtonHover:      #5DDB5A;
+
+$grayButton:            #a3a3a3;
+$grayButtonBorder:      #8d8b8b;
+$grayButtonDown:        #8d8b8b;
+$grayButtonHover:       #8d8b8b;
+
+$blueButton:            #1B8FF2;
+$blueButtonBorder:      #3AA4FF;
+$blueButtonDown:        #3AA4FF;
+$blueButtonHover:       #3AA4FF;
+
+$facebookButton:        #2d4585;
+$facebookButtonHover:   #334e89;
+$twitterButton:         #1e9ae9;
+$twitterButtonHover:    #019dd9;
+$linkedInButton:        #136298;
+$linkedInButtonHover:   #0d4b77; // Needs to be tested with Pete.
+
+$alertNotice:           $blueButton;
+$alertSuccess:          $greenButton;
+
+$linkBlue:              $blueButton; // Hashtag links
+
+$startButton:           #f1f4f4;
+$startButtonBorder:     #2b98c5;
+$thumbBorder:           #dfe1e1;
+$textareaBorder:        #e5e5e5;
+$headerBorder:          #dfe3e5;
+$colorDate:             #7f889c;
+$colorGrey:             #7f889c;
+$authorColor:           #7f8893;
+$authorColorHover:      #656d77;
+$notiColorRed:          #f26248;
+$notiColorBlue:         #369bc8;
+$ideaBorderColor:       #dadde0;
+$bgColorMain:           #f9fafa;
+$bgColorMainHover:      #e4e4e4;
+$bdrButton:             #b5bdc4;
+$bdrButtonHover:        #edf0f0;
+$hoverLink:             #06a5eb;
+$borderFocus:           #66afe9;
+$btnIdeaHover:          #ebebeb;
+$btnYellow:             #fdac51;
+$facebookColor:         #395693;
+$facebookColorHover:    lighten(#395693, 5%);
+$twitterColor:          #55ACEE;
+$twitterColorHover:     lighten(#55ACEE, 5%);
+
+// Override loading-bar color
+$loading-bar-color: #00a177;
+
+// ===========================================================
+// New declaration
+// ===========================================================
+// Gray color
+$gray-lighter: #e1e5eb;
+$gray-darker: #9aa7b5;
+
+// White color
+$white-darker: darken($white, 10%);
+
+// Brand color
+$green-base: $greenButton;
+$green-base-lighter: $greenButtonHover;
+$blue-base: #1a8dee;
+$blue-base-lighter: $blueButtonHover;
